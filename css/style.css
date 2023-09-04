@@ -1,0 +1,34 @@
+.deserto {
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.chao {
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  bottom: 0px;
+  background-position-y: -78px;
+  width: 1831px;
+  height: 20px;
+  z-index: 2;
+}
+
+.dino {
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  width: 66px;
+  left: 20px;
+  height: 70px;
+  z-index: 3;
+}
+
+.nuvem {
+  background-image: url(../img/sprite.png);
+  background-position: -125px -2px;
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  z-index: 2;
+}
